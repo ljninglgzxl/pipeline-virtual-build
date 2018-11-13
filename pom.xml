@@ -68,7 +68,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>dockertest</finalName>
+        <finalName>pipeline-docker-build</finalName>
     </build>
 
 
