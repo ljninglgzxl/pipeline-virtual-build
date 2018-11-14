@@ -13,10 +13,10 @@ public class VirtualtestApplication extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(DockertestApplication.class);
+        return builder.sources(VirtualtestApplication.class);
     }
     public static void main(String[] args) {
-        SpringApplication.run(DockertestApplication.class, args);
+        SpringApplication.run(VirtualtestApplication.class, args);
     }
     @RequestMapping("/ubuntu")
     public String index(){
