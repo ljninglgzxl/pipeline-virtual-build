@@ -20,6 +20,6 @@ public class DockertestApplication extends SpringBootServletInitializer {
     }
     @RequestMapping("/docker")
     public String index(){
-        return "the first spring-boot-project running in docker!";
+        return "the first spring-boot-project running in ubuntu!";
     }
 }
