@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class DockertestApplication extends SpringBootServletInitializer {
+public class VirtualtestApplication extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
@@ -18,7 +18,7 @@ public class DockertestApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(DockertestApplication.class, args);
     }
-    @RequestMapping("/docker")
+    @RequestMapping("/ubuntu")
     public String index(){
         return "the first spring-boot-project running in ubuntu!";
     }
